@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Github</title>
+</head>
+<body>
+    <h1>Learn github</h1>
+    <fieldset>
+        <legend>configure the name and email on git on local machine</legend>
+
+        <ul>
+            <li>for name:- git config --global user.name "your name"</li>
+            <li>for email:-git config --global user.email "your email"</li>
+
+            <li>for show the configuration:- git config --global user.&ltname,email&gt</li>
+        </ul>
+
+
+    </fieldset>
+    <fieldset>
+        <legend>flow in github</legend>
+        <pre>
+            1-working to local repo:-
+                working directory ---<u><sup>(git add)</sup></u>---->stagingArea----<u><sup>(git commit)</sup></u>---->local repostary
+            2.local repo to remote (Github)
+                local repo -------<u><sup>(git push)</sup></u>---->remote server 
+                remote server------<u><sup>(git pull)</sup></u>---->local server
+            3.for knowning status :- 
+                git status
+        </pre>
+    </fieldset>
+        
+    <fieldset>
+        <legend>how to add file on git</legend>
+        <pre>
+            1-create a folder 
+            2-open cmd 
+            3-run command-> git init
+            4-make some change in file inside the folder
+            5-run command-> git add .
+            6-run command-> git commit -m "message"
+        </pre>
+    </fieldset>
+    <fieldset>
+        <legend>how to add remote location(github)</legend>
+        <pre>
+            after commit in git:-(above step)
+                1-open git and create new repo 
+                2-copy the link by selecting https option
+                3-run command-> git remote "LINK"
+           
+        </pre>
+    </fieldset>
+</body>
+</html>
